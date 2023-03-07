@@ -1,24 +1,26 @@
-# Topshiriq-1-Foydalanuvchi ismini.... terminalga o'tish
-# fristname = input ("Ismizni kiriting")
-# lastname = ("familangiz nima")
-# age = ("yoshingiz nima")
-# email = ("enmail kiritng")
-# password = int(input("parolni kiriting"))
-# print (frintname,lastname,age,email,password)
-             #Topshiriq -2-masala yechish
-# 1) Ifodani yeching
-# a = (12*(5/6)+2*(7/9))*(15*(9/10)-12*(9/10))
-# print(a)                                                                                                                                                                                                                                             
+# Birinchi
+a = int(input("sonni kiriting:"))
+if (a % 3 == 0 and a % 5 == 0):
+    print("Fizz Buzz")
+elif (a % 3 == 0):
+    print("Fizz")
+elif (a % 5 == 0):
+   print("Buzz")
+else:
+   print("xatolik!")
 
-#  2) Ifodani yeching
-# a = (5*(7/16)*1*(3/29)+2*(5/16)*2*(2/7))
-# print(a)
+#ikkinchi
+login = input("loginni kiriting")
+email = input("emailni kiriting")
+parol = input("parolni kiriting")
 
-# 3)hisoblang
-# s = (15*13+15*29+42*19+34*58)
-# print(s)
+login == 2010
+email == "ibadillayevshuhrat@gmail.com"
+parol == 2000000200
 
-# 4) a=4
-# b=6
-# z=a**2+2*a*b+b**2
-# print(z)
+if(login == 2010 and email == "ibadillayevshuhrat@gmail.com" and parol == 2000000200):
+   print("Admin: xush kelibsiz")
+
+# uchinchi
+print ("Maxanizatsiyalashtirishmoqchiliginiaytganinibilibqoldim") [0:13]
+print ("Maxanizatsiyalashtirishmoqchiliginiaytganinibilibqoldim") [0:49]
