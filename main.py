@@ -1,26 +1,48 @@
-# Birinchi
-a = int(input("sonni kiriting:"))
-if (a % 3 == 0 and a % 5 == 0):
-    print("Fizz Buzz")
-elif (a % 3 == 0):
-    print("Fizz")
-elif (a % 5 == 0):
-   print("Buzz")
-else:
-   print("xatolik!")
+# # birinchi
+# import random
+# attems = 0
 
-#ikkinchi
-login = input("loginni kiriting")
-email = input("emailni kiriting")
-parol = input("parolni kiriting")
+# myname = input ("enter you name")
+# namber = random.randintr(1, 60)
+# print("salom men o'ylashimcha raqam 1 va 60")
+# while attems< 5:
+#     print("take a gues")
+#     guessed_namber = (int(input("")))
+#     attems += 1
+#     if guessed_namber < namber:
+#         print("your guess is low")
+#     if guessed_namber < namber:
+#         print("your guess is big")
+#     if guessed_namber == namber:
+#         break
+#     if guessed_namber == namber:
+#         print(myname, "your found the namber in {}".format(attems))
+#         if guessed_namber != namber:
+#             print("your failed")
 
-login == 2010
-email == "ibadillayevshuhrat@gmail.com"
-parol == 2000000200
+# Ikkinchi
+# for son in range(0,10+1):
+#    print(f"{son}hallol")
 
-if(login == 2010 and email == "ibadillayevshuhrat@gmail.com" and parol == 2000000200):
-   print("Admin: xush kelibsiz")
+# uchinchisi
+# print("aziza"[::-1])
 
-# uchinchi
-print ("Maxanizatsiyalashtirishmoqchiliginiaytganinibilibqoldim") [0:13]
-print ("Maxanizatsiyalashtirishmoqchiliginiaytganinibilibqoldim") [0:49]
+# to'rtinchi
+
+
+
+
+
+
+
+
+
+
+# beshinchi
+username = input("username:")
+password = input("PASSWORD:")
+email = input("EMAIL:")
+
+_username = "Shuhrat"
+_pasword = "123456"
+_email = "ibadillayevshuhrat@gmail.com"
