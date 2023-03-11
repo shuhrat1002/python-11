@@ -1,48 +1,14 @@
-# # birinchi
-# import random
-# attems = 0
+import random
+def generate_password(length = int(input("Raqam kiriting: "))): 
+    kichik_harf = "abdeghijklmnopqrstuvxyzo'g'shchng" 
+    katta_harf = "ABDEGHIJKLMNOPQRSTUVXYZO'G'SHCHNG"
+    raqamlar="123456789"
+    simvollar = "!@#$%^&*()_+"
+    all_chars = kichik_harf + katta_harf + raqamlar + simvollar
+    password_chars = random. sample(all_chars, length)
+    password = "". join(password_chars)
 
-# myname = input ("enter you name")
-# namber = random.randintr(1, 60)
-# print("salom men o'ylashimcha raqam 1 va 60")
-# while attems< 5:
-#     print("take a gues")
-#     guessed_namber = (int(input("")))
-#     attems += 1
-#     if guessed_namber < namber:
-#         print("your guess is low")
-#     if guessed_namber < namber:
-#         print("your guess is big")
-#     if guessed_namber == namber:
-#         break
-#     if guessed_namber == namber:
-#         print(myname, "your found the namber in {}".format(attems))
-#         if guessed_namber != namber:
-#             print("your failed")
+    return password
 
-# Ikkinchi
-# for son in range(0,10+1):
-#    print(f"{son}hallol")
-
-# uchinchisi
-# print("aziza"[::-1])
-
-# to'rtinchi
-
-
-
-
-
-
-
-
-
-
-# beshinchi
-username = input("username:")
-password = input("PASSWORD:")
-email = input("EMAIL:")
-
-_username = "Shuhrat"
-_pasword = "123456"
-_email = "ibadillayevshuhrat@gmail.com"
+password = generate_password()
+print(password)
