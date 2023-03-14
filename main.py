@@ -1,14 +1,12 @@
-import random
-def generate_password(length = int(input("Raqam kiriting: "))): 
-    kichik_harf = "abdeghijklmnopqrstuvxyzo'g'shchng" 
-    katta_harf = "ABDEGHIJKLMNOPQRSTUVXYZO'G'SHCHNG"
-    raqamlar="123456789"
-    simvollar = "!@#$%^&*()_+"
-    all_chars = kichik_harf + katta_harf + raqamlar + simvollar
-    password_chars = random. sample(all_chars, length)
-    password = "". join(password_chars)
+# Birinchisi
+# print("Assalomu aleykum"[::-1])
 
-    return password
+# ikinchisi
+# print("1abc2das3dbc4ghj5"[::4])
 
-password = generate_password()
-print(password)
+# uchinchi
+def replace_python_with_java(text):
+    return text.replace("Python", "JavaScript")
+input_text = "Python is most popular programming language"
+output_text = replace_python_with_java(input_text)
+print(output_text)
